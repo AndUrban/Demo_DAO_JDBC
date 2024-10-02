@@ -28,7 +28,7 @@ Pré-requisitos: JavaSE 21, MySQL Workbench
 
 ```bash
 # clonar repositório:
-git clone https://github.com/AndUrban/workshop-springboot3-jpa.git
+git clone https://github.com/AndUrban/demo-dao-jdbc/tree/main
 
 # Dentro da IDE, importar o projeto:
 course
