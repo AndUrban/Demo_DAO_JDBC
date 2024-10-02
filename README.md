@@ -1,12 +1,14 @@
 # Projeto DAO (Data Access Object) - Acesso ao Banco de Dados com JDBC
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/AndUrban/workshop-springboot3-jpa/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/AndUrban/demo-dao-jdbc/blob/main/LICENSE)
 
 
 # Sobre o projeto
 
-Web service é um projeto back end, oferecida pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
-Consiste em um projeto Spring Boot Java, seguindo a implementação do modelo de domínio e sendo estruturado por 
-camadas lógicas (resource, service e repository).
+Oferecida pela [DevSuperior](https://devsuperior.com "Site da DevSuperior"),o projeto
+consiste em um desenvolvimento de um sistema na qual manipula dados no banco de dados MySql
+através da aplicação do padrão DAO - Data Access Object. Para cada entidade, haverá um
+objeto responsável por fazer acesso a dados relacionado a essa entidade. Cada DAO é definido
+por uma interface. A injeção de dependência é feita por meio do padrão de projeto factory.
 
 
 ## Modelo de Domínio
