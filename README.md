@@ -11,21 +11,20 @@ objeto responsável por fazer acesso a dados relacionado a essa entidade. Cada D
 por uma interface. A injeção de dependência é feita por meio do padrão de projeto factory.
 
 
-## Modelo de Domínio
-![Modelo Conceitual](https://github.com/AndUrban/Assets/blob/main/Assets/webServicesSpringBoot_1.png)
-## Inteface de Domínio
-![Modelo Conceitual](https://github.com/AndUrban/Assets/blob/main/Assets/webServicesSpringBoot_2.png)
-## Camadas Lógicas (Logical Layers)
-![Modelo Conceitual](https://github.com/AndUrban/Assets/blob/main/Assets/webServicesSpringBoot_3.png)
+## Diagrama de Implementação
+![Modelo Conceitual](https://github.com/AndUrban/Assets/blob/main/Assets/projectDao_1.png)
+## Entidades Utilizadas
+![Modelo Conceitual](https://github.com/AndUrban/Assets/blob/main/Assets/projectDao_2.png)
+## Modelo de Instanciação em Memória
+![Modelo Conceitual](https://github.com/AndUrban/Assets/blob/main/Assets/projectDao_3.png)
 
 # Tecnologias utilizadas
 - Java
-- Spring Boot
-- JPA / Hibernate
-- Maven
+- MyQsl
+- JDBC
 
 # Execução
-Pré-requisitos: JavaSE 21
+Pré-requisitos: JavaSE 21, MySQL Workbench
 
 ```bash
 # clonar repositório:
