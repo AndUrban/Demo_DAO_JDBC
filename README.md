@@ -24,30 +24,31 @@ por uma interface. A injeção de dependência é feita por meio do padrão de p
 - JDBC
 
 # Execução
-Pré-requisitos: JavaSE 21, MySQL Workbench
+Pré-requisitos: Java 17, MySQL Workbench
 
 ```bash
 # clonar repositório:
-git clone https://github.com/AndUrban/demo-dao-jdbc/tree/main
+git clone https://github.com/AndUrban/demo-dao-jdbc
 
 # Dentro da IDE, importar o projeto:
-course
+demo-dao-jdbc
 
-# Caminho para a execução:
-course/src(src/main/java)/com.myeducandoweb.course/CourseApplication.java
+# Caminho:
+demo-dao-jdbc/src/application/Program.java (Program2.java)
+  > Program.java é da entidade Seller; Program2.java é da entidade Department.
 
--> Run as Spring Boot App
+# Execute o MySQL Workbench
 
-# Abrir o link:
-http://localhost:8080/h2-console
+Conferir as seguintes informações no Workbench e modificar (conforme o necessário) no arquivo db.properties:
+> Caminho: demo-dao-jdbc/db.properties
+> Atualizar informações:
+  user: >seu usuário Workbench<
+  password: >sua senha workbench<
+  dburl: jdbc:mysql://localhost:3306/coursejdbc
+  useSSL: false
 
-Conferir as seguintes informações:
-Driver class: org.h2.Driver
-JDBC URL: jdbc:h2:mem:testdb
-User Name: sa
-Password: (não tem)
-
--> Clicar em "Connect"
+# Executar o programa.
+  -> Run as Java Application
 ```
 
 # Agradecimentos
