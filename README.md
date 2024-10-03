@@ -5,7 +5,7 @@
 # Sobre o projeto
 
 Oferecida pela [DevSuperior](https://devsuperior.com "Site da DevSuperior"),o projeto
-consiste em um desenvolvimento de um sistema na qual manipula dados no banco de dados MySql
+consiste em um desenvolvimento de um sistema na qual manipula dados no banco de dados MySQL
 através da aplicação do padrão DAO - Data Access Object. Para cada entidade, haverá um
 objeto responsável por fazer acesso a dados relacionado a essa entidade. Cada DAO é definido
 por uma interface. A injeção de dependência é feita por meio do padrão de projeto factory.
